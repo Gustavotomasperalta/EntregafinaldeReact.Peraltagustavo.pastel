@@ -46,7 +46,7 @@ Y librerias externas como bootstrap, Aos y SweetAlert2 para darle un poco mas de
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/AlexanderWindecker/reactjs-windecker.git
+   git clone https://github.com/Gustavotomasperalta/EntregafinaldeReact.Peraltagustavo.pastel.git
    ```
 2. Install NPM packages
    ```sh
