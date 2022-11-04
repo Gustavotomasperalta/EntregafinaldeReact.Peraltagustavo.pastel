@@ -1,0 +1,39 @@
+.titulo-parte2 {
+  font-size: 40px;
+}
+
+.section .descripcion--parte2 {
+  background-color: rgba(50, 50, 50, 0.5);
+  padding: 10px;
+}
+.section .descripcion--parte2 p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.descripcion--parte2 ul {
+  list-style: none;
+}
+
+.img-quienes-somos img {
+  width: 300px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  float: left;
+  border-radius: 10%;
+}
+
+.descripcion {
+  background-color: rgba(50, 50, 50, 0.5);
+  width: 600px;
+  margin: 25px;
+  text-align: center;
+}
+.descripcion h2 {
+  margin: 15px;
+  font-size: 45px;
+}
+.descripcion p {
+  margin: 25px;
+  font-size: 20px;
+}

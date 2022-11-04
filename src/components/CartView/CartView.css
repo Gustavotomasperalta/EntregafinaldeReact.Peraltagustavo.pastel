@@ -1,0 +1,85 @@
+
+.div-container_card{
+  overflow-y: auto ;
+  
+}
+
+.imgcarro{
+  width: 180px;
+  height: 180px;
+}
+
+.div-sincompra {
+  width: 300px;
+  height: 300px;
+}
+
+.closed-compra {
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+  border-radius: 50%;
+  margin:  0px 4px;
+  padding: 0px;
+  border-radius: 50%;
+  
+  
+}
+
+.div-closed-compra {   
+    
+    background-color: rgb(11, 11, 82) ;
+    border-radius: 50%;
+}
+
+
+
+.img-cart{
+    height: 70px;
+    width: 70px;
+}
+
+.div-remove{
+ height: 30px;
+}
+
+.container_card{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    height: 40rem;
+    max-width: 960px;
+    
+  }  
+
+.boton-count{
+    width: 40px;
+    height: 40px;
+}
+
+.div-compra{
+    width: 350px;
+    height: auto;
+}
+
+/* .fin-tr{
+  float: right;
+  width: 33%;
+  border: solid gray 1px;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.formFlex{
+  margin-bottom: 1rem;
+}
+
+.formFlex input{
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid gray;
+} */
