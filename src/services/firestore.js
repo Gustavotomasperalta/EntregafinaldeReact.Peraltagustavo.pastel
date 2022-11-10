@@ -15,7 +15,7 @@ const app = initializeApp(firebaseConfig);
 export const firestore = getFirestore(app);
 
 export async function getItems() {
-  const miColleccion = collection(firestore, "tortas");
+  const miColleccion = collection(firestore, "productos");
   let snapShotDB = await getDocs(miColleccion);
 
   let dataDocs = snapShotDB.docs.map((documento) => {
@@ -26,14 +26,14 @@ export async function getItems() {
   return dataDocs;
 }
 export async function getItemsSingle(idParams) {
-  const docRef = doc(firestore, "tortas", idParams);
+  const docRef = doc(firestore, "productos", idParams);
   const docSnapshot = await getDoc(docRef);
 
   return { ...docSnapshot.data(), id: docSnapshot.id };
 }
 
 export async function getItemsByCategory(catParams) {
-  const collectionRef = collection(firestore, "tortas");
+  const collectionRef = collection(firestore, "productos");
   const queryCategory = query(
     collectionRef,
     where("category", "==", catParams)
